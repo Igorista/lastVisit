@@ -14,7 +14,6 @@ fun main(args: Array<String>) {
 fun correctMin(): String {
     val time: String
     val min: Int = SECONDS / 60
-    val hour: Int = SECONDS / 36
     when (true) {
         min % 10 == 1 && min % 100 != 11  -> time = MINUTE
         min % 10 == 0 -> time = MINUTES1
